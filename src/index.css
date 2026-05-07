@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Estilos globales opcionales para mejorar la UI del catálogo */
+@layer base {
+  body {
+    @apply antialiased text-gray-900 bg-white;
+  }
+}
