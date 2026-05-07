@@ -8,7 +8,7 @@ export default defineConfig({
   name: 'URBANO_Catalogo',
   title: 'URBANO - Catálogo de Ropa',
 
-  projectId: import.meta.env.VITE_SANITY_PROJECT_ID || 'hwujeebe',
+  projectId: import.meta.env.VITE_SANITY_PROJECT_ID || 'txli48cz',
   dataset: import.meta.env.VITE_SANITY_DATASET || 'production',
 
   plugins: [
